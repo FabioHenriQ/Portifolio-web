@@ -1,0 +1,17 @@
+.square {
+    position: absolute;
+    top: 150px;
+
+    animation-name: moveSquare;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+}
+
+.purpleSquare {
+    background: rgba(44, 14, 100, 0.747);
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    -webkit-backdrop-filter: blur( 2px );
+    backdrop-filter: blur( 2px );
+    border-radius: 41px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+}
