@@ -30,7 +30,6 @@ header {
 li {
     width: 100%;
     text-align: center;
-    padding: 10px;
     height: 60px;
 }
 
@@ -38,12 +37,7 @@ section {
     height: 100vh;
     padding-top: 60px;
 }
-/* -------- Sub class------- */
 
-.hidden {
-    display: none;
-    transition: .5s;
-}
 /* -------- Navbar -------- */
 .icon-menu {
     display: flex;
@@ -69,7 +63,6 @@ section {
 .menu-mobile {
     display: flex;
     flex-direction: column;
-    transition: .5s;
 }
 
 .menu-mobile ul {
@@ -88,10 +81,10 @@ section {
 
 .options-menu a {
     color: #ffffff;
-    padding: 7px;
+    padding: 10px;
 
 }
-/* ------ About ------- */
+/* ------ Home ------- */
 
 #home {
     display: flex;
@@ -149,4 +142,19 @@ section {
 }
 .icons-social img {
     height: 5rem;
+}
+
+/* -------- About ---------- */
+
+
+/* -------- Sub class------- */
+
+.hidden {
+    display: none;
+    transition: .5s;
+}
+.selected {
+    color: #ffffff !important;
+    text-decoration: underline black 5px;
+    transition: 1s;
 }

@@ -2,7 +2,7 @@
     position: absolute;
     top: 150px;
 
-    animation-name: moveSquare;
+    animation-name: moveImgHome;
     animation-duration: 3s;
     animation-iteration-count: infinite;
 }
