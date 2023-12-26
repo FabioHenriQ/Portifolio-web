@@ -4,9 +4,9 @@ const state = {
        boxMenuOptions: document.querySelectorAll('ul')[0],
        menuOptions: document.querySelectorAll('li'),
        imgMenu: document.querySelectorAll('img')[1],
-       aboutButton: document.querySelectorAll('li a')[0],
-       technologiesButton: document.querySelectorAll('li a')[1],
-       projectsButton: document.querySelectorAll('li a')[2],
+       aboutButton: document.querySelectorAll('li a')[3],
+       technologiesButton: document.querySelectorAll('li a')[4],
+       projectsButton: document.querySelectorAll('li a')[5],
     },
     sections: {
         home: document.querySelector('#home'),

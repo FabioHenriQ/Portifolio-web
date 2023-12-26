@@ -120,9 +120,12 @@ section {
     background-clip: text;
     -webkit-text-fill-color: transparent;
 }
+.info-home p:nth-child(2) {
+    font-weight: 600;
+}
 .info-home p {
     max-width: 90%;
-    font-weight: 500;
+    font-weight: 200;
 }
 .info-home hr{
     background-color: #362dbbe0;
@@ -145,8 +148,31 @@ section {
 }
 
 /* -------- About ---------- */
+#about {
+    padding: 60px 10px 10px 10px;
+    background-color: rgb(16, 2, 68);
+    color: #ffffff;
+}
+.info-about {
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+    gap: 10%;
+}
 
+.info-about li {
+    text-align: left;
+    max-width: 90%;
+}
 
+.img-about {
+    height: 120px;
+    min-width: 120px;
+}
+.img-about img {
+    height: 100%;
+    width: 100%;
+}
 /* -------- Sub class------- */
 
 .hidden {
