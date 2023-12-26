@@ -34,7 +34,7 @@ li {
 }
 
 section {
-    height: 100vh;
+    min-height: 100vh;
     padding-top: 60px;
 }
 
@@ -125,7 +125,7 @@ section {
 }
 .info-home p {
     max-width: 90%;
-    font-weight: 200;
+    font-weight: 300;
 }
 .info-home hr{
     background-color: #362dbbe0;
@@ -159,10 +159,28 @@ section {
     padding-top: 20px;
     gap: 10%;
 }
+#about h2 {
+    font-size: 36px;
+}
 
 .info-about li {
     text-align: left;
     max-width: 90%;
+    list-style: square;
+    font-weight: 300;
+}
+.info-about ul {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.learning-about span {
+    background-image: linear-gradient(to bottom, rgb(131, 28, 235), rgb(98, 96, 224), rgb(23, 19, 255));
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: 500;
 }
 
 .img-about {
