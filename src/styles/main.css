@@ -82,14 +82,18 @@ section {
     box-shadow: 0 0px 15px 0 rgba(31, 38, 135, 0.322);
     -webkit-backdrop-filter: blur( 13.5px );
     backdrop-filter: blur( 13.5px );
+    display: grid;
+    grid-row: 1fr;
 }
 
 .options-menu a {
     color: #ffffff;
+    padding: 7px;
+
 }
 /* ------ About ------- */
 
-#about {
+#home {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -98,7 +102,7 @@ section {
     text-align: center;
     background: #af96e27c
 }
-#about .square-template-about{
+#home .square-template-home{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -106,7 +110,7 @@ section {
     height: 200px;
 }
 
-.info-about {
+.info-home {
     color: #000;
     display: flex;
     flex-direction: column;
@@ -114,20 +118,20 @@ section {
     text-align: center;
     font-size:17px;
     font-weight: 700;
-    padding-top: 50px;
+    padding-top: 10px;
 }
-.info-about span {
+.info-home span {
     color: rgba(54, 45, 187, 0.877);
     background-image: linear-gradient(to bottom, rgb(131, 28, 235), rgb(98, 96, 224), rgb(23, 19, 255));
     -webkit-background-clip: text;
     background-clip: text;
     -webkit-text-fill-color: transparent;
 }
-.info-about p {
+.info-home p {
     max-width: 90%;
     font-weight: 500;
 }
-.info-about hr{
+.info-home hr{
     background-color: #362dbbe0;
     margin: 8px;
     padding: 1;
