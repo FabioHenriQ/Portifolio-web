@@ -195,7 +195,7 @@ section {
 }
 
 .img-about {
-    height: 100px;
+    height: 50%;
     width: 100%;
     text-align: center;
 }
@@ -205,6 +205,7 @@ section {
 }
 .buttons-about {
     padding-top: 50px;
+    margin-bottom: 20px;
     display: flex;
     justify-content: center;
     gap: 5%;
