@@ -11,12 +11,6 @@
 html {
     scroll-behavior: smooth;
 }
-a {
-    text-decoration: none;
-    font-size: 26px;
-    font-weight: 800;
-    color: #191919;
-}
 
 header {
     display: flex;
@@ -24,13 +18,7 @@ header {
     justify-content: center;
     position: fixed;
     width: 100vw;
-    z-index: 1;
-}
-
-li {
-    width: 100%;
-    text-align: center;
-    height: 60px;
+    z-index: 2;
 }
 
 section {
@@ -77,12 +65,17 @@ section {
     backdrop-filter: blur( 13.5px );
     display: grid;
     grid-row: 1fr;
+    width: 100%;
+    text-align: center;
+    height: 60px;
 }
 
 .options-menu a {
     color: #ffffff;
     padding: 10px;
-
+    text-decoration: none;
+    font-size: 26px;
+    font-weight: 800;
 }
 /* ------ Home ------- */
 
@@ -93,7 +86,8 @@ section {
     align-items: center;
 
     text-align: center;
-    background: #af96e27c
+    background: #af96e27c;
+    
 }
 #home .square-template-home{
     display: flex;
@@ -113,12 +107,18 @@ section {
     font-weight: 700;
     padding-top: 10px;
 }
-.info-home span {
+.info-home span.stack {
     color: rgba(54, 45, 187, 0.877);
     background-image: linear-gradient(to bottom, rgb(131, 28, 235), rgb(98, 96, 224), rgb(23, 19, 255));
     -webkit-background-clip: text;
     background-clip: text;
     -webkit-text-fill-color: transparent;
+}
+.arrow1::before {
+    content: '<';
+}
+.arrow2::after {
+    content: '>';
 }
 .info-home p:nth-child(2) {
     font-weight: 600;
@@ -145,34 +145,45 @@ section {
 }
 .icons-social img {
     height: 5rem;
+    transition: .5s;
+}
+.icons-social img:hover {
+    transform: scale(1.1);
+    transition: .5s;
 }
 
 /* -------- About ---------- */
 #about {
-    padding: 60px 10px 10px 10px;
+    padding: 80px 20px 10px 20px;
     background-color: rgb(16, 2, 68);
     color: #ffffff;
 }
 .info-about {
     display: flex;
+    flex-direction: column;
     justify-content: center;
     padding-top: 20px;
     gap: 10%;
 }
 #about h2 {
-    font-size: 36px;
+    font-size: 40px;
 }
+#about p {
+    font-weight: 300;
+}
+#about hr {
+    width: 30px;
+}
+.info-about ul {
+    padding-left: 1rem;
 
+}
 .info-about li {
     text-align: left;
+    padding-top: 1rem;
     max-width: 90%;
     list-style: square;
     font-weight: 300;
-}
-.info-about ul {
-    display: flex;
-    flex-direction: column;
-    gap: 10px;
 }
 
 .learning-about span {
@@ -180,16 +191,27 @@ section {
     -webkit-background-clip: text;
     background-clip: text;
     -webkit-text-fill-color: transparent;
-    font-weight: 500;
+    font-weight: 800;
 }
 
 .img-about {
-    height: 120px;
-    min-width: 120px;
+    height: 100px;
+    width: 100%;
+    text-align: center;
 }
 .img-about img {
     height: 100%;
-    width: 100%;
+    width: 50%;
+}
+.buttons-about {
+    padding-top: 50px;
+    display: flex;
+    justify-content: center;
+    gap: 5%;
+}
+.buttons-about a {
+    font-size: 22px;
+    transition: .5s;
 }
 /* -------- Sub class------- */
 
@@ -202,3 +224,26 @@ section {
     text-decoration: underline black 5px;
     transition: 1s;
 }
+.button {
+    min-width: 7rem;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 600;
+    text-transform: uppercase;
+    border-radius: 12px;
+    background-color: #ffffff;
+    text-align: center;
+    padding: 10px;
+    color: #ffffff;
+    border: 1px solid #000;
+    box-shadow: 0 1px 15px 1px #ffffff15;
+    background-image: linear-gradient(115deg, rgb(83, 28, 235), rgb(98, 96, 224), rgb(23, 19, 255));
+    transition: .5s;
+}
+
+.button:hover {
+    box-shadow: 0px 0px 10px 1px rgb(83, 28, 235);
+    transition: .5s;
+    transform: scale(1.1);
+}
+
