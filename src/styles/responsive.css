@@ -1,26 +1,34 @@
 @media  screen and (min-width: 768px) {
     /* ------ header ------- */
-
     .icon-menu img {
         height: 3.2rem;
     }
 
     /* ------- home --------- */
 
-    #home {
-        background: red;
-    }
-
     /* --------About --------- */
-
     .info-about {
         flex-direction: row-reverse;
         height: 100%;
+        margin: 0 40px;
+        align-items: center;
     }
 
     .img-about img {
         height: 100%;
         width: 100%;
+    }
+
+    /* ------- Projects --------- */
+    .projects-list ul{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .project-card {
+        min-height: 400px;
+        width: 40%;
     }
 
     
