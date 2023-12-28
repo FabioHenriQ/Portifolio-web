@@ -267,7 +267,41 @@ section {
     text-transform: uppercase;
     font-size: small;
 }
+/* ------- Projects -------- */
+#projects {
+    background-color: #af96e2;
+    padding: 80px 20px 10px 10px;
+}
+#projects h2 {
+    font-size: 40px;
+}
+.projects-list ul {
+    list-style: none;
+}
+.projects-list  {
+    font-weight: 300;
+}
+.project-card {
+    margin: 20px;
+    border-radius: 20px;
+    padding: 15px;
 
+    background: linear-gradient(315deg, #9e87cb, #bba1f2);
+    box-shadow:  -6px -6px 27px #62547f, 6px 6px 27px #fcd8ff;
+}
+.project-card img {
+    height: 100%;
+    width: 100%;
+    border-radius: 5px 5px 0px 0px; 
+}
+.project-description {
+    padding-top: 5px;
+}
+.project-title {
+    font-size: 24px;
+    padding-bottom: 5px;
+    font-weight: 400;
+}
 
 /* -------- Sub class------- */
 
