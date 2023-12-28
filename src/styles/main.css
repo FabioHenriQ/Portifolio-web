@@ -39,7 +39,7 @@ section {
 }
 
 .icon-menu img {
-    height: 3rem;
+    height: 2.2rem;
     -webkit-user-select: none;
     user-select: none;
 }
@@ -87,7 +87,7 @@ section {
 
     text-align: center;
     background: #af96e27c;
-    
+
 }
 #home .square-template-home{
     display: flex;
@@ -144,7 +144,7 @@ section {
     gap: 2rem;
 }
 .icons-social img {
-    height: 5rem;
+    height: 4rem;
     transition: .5s;
 }
 .icons-social img:hover {
@@ -276,10 +276,23 @@ section {
 #projects h2 {
     font-size: 40px;
 }
+#projects hr {
+    border: 0;
+    width: 32px;
+    height: 2px;
+    background-color: #000;
+    margin-bottom: 15px;
+}
+.project {
+    font-weight: 300;
+}
 .projects-list ul {
     list-style: none;
 }
 .projects-list  {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
     font-weight: 300;
 }
 .project-card {
@@ -298,7 +311,7 @@ section {
 .project-card img {
     height: 100%;
     width: 100%;
-    border-radius: 5px 5px 0px 0px; 
+    border-radius: 5px 5px 0px 0px;
 }
 .project-description {
     padding-top: 5px;
@@ -316,6 +329,41 @@ section {
 .tech-images img {
     height: 2rem;
     width: 2rem;
+}
+/* ------ Footer ---------- */
+footer {
+    background-color: rgb(16, 2, 68);
+    min-height: 10vh;
+    display: flex;
+    color: #ccc;
+    align-items: center;
+    padding: 10px;
+    justify-content: space-between;
+}
+.footer-icons ul {
+    display: flex;
+    list-style: none;
+    gap: 5px;
+}
+.footer-icons li{
+    height: 1.9rem;
+    width: 1.9em;
+}
+.footer-icons img {
+    height: 100%;
+    width: 100%;
+}
+.footer-links {
+    display: flex;
+    flex-direction: column;
+}
+.footer-links ul{
+    list-style: none;
+    text-align: center;
+}
+.footer-links a {
+    color: #cccccc;
+    font-weight: 300;
 }
 
 /* -------- Sub class------- */
