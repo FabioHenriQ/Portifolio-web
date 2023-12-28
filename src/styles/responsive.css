@@ -1,0 +1,33 @@
+@media  screen and (min-width: 768px) {
+    /* ------ header ------- */
+
+    .icon-menu img {
+        height: 3.2rem;
+    }
+
+    /* ------- home --------- */
+
+    #home {
+        background: red;
+    }
+
+    /* --------About --------- */
+
+    .info-about {
+        flex-direction: row-reverse;
+        height: 100%;
+    }
+
+    .img-about img {
+        height: 100%;
+        width: 100%;
+    }
+
+    
+}
+
+@media  screen and (min-width: 1024px) {
+    #home {
+        background: rgb(38, 0, 255);
+    }
+}

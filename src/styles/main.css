@@ -1,5 +1,4 @@
 @import url("./reset.css");
-@import url("./responsive.css");
 @import url("./animations.css");
 @import url("./geometricShapes.css");
 
@@ -23,7 +22,6 @@ header {
 
 section {
     min-height: 100vh;
-    padding-top: 60px;
 }
 
 /* -------- Navbar -------- */
@@ -80,6 +78,7 @@ section {
 /* ------ Home ------- */
 
 #home {
+    padding-top: 80px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -92,6 +91,7 @@ section {
 #home .square-template-home{
     display: flex;
     justify-content: center;
+    position: relative;
     align-items: center;
     width: 100%;
     height: 200px;
@@ -400,4 +400,3 @@ footer {
     transition: .5s;
     transform: scale(1.1);
 }
-

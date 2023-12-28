@@ -1,9 +1,8 @@
 .square {
     position: absolute;
-    top: 150px;
 
     animation-name: moveImgHome;
-    animation-duration: 3s;
+    animation-duration: 2.5s;
     animation-iteration-count: infinite;
 }
 

@@ -1,11 +1,11 @@
 @keyframes moveImgHome {
     0%{
-        top: 110px;
+        top: 10px;
     }
     50%{
-        top: 115px;
+        top: 16px;
     }
     100%{
-        top: 110px;
+        top: 10px;
     }
 }
