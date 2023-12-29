@@ -289,6 +289,7 @@ section {
     list-style: none;
 }
 .projects-list  {
+    margin-top: 15px;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -328,6 +329,28 @@ section {
 .tech-images img {
     height: 2rem;
     width: 2rem;
+    transition: .5s;
+}
+.tech-images img:hover {
+    transform: scale(1.1);
+}
+.buttons-project {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 10px;
+}
+.btn-project {
+    text-decoration: none;
+    font-weight: 500;
+    color: #000;
+    font-size: 20px;
+    border: 1px solid #000;
+    border-radius: .5rem;
+    padding: 10px;
+    transition: .5s;
+}
+.btn-project:hover {
+    transform: scale(1.03);
 }
 /* ------ Footer ---------- */
 footer {
