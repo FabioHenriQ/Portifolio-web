@@ -18,6 +18,14 @@
         height: 100%;
         width: 100%;
     }
+    /* ------- Tecnologies ------*/
+    .card-list {
+        margin: 15px 70px 0 70px;
+    }
+
+    .card-list ul {
+        gap: 13%;
+    }
 
     /* ------- Projects --------- */
     .projects-list ul{
@@ -35,6 +43,26 @@
 }
 
 @media  screen and (min-width: 1024px) {
+    /* ----- Home --------- */
     #home {
+        padding: 100px 100px 0 100px;
+    }
+    /* ------- About -------- */
+    #about {    
+        padding: 100px 100px 20px 100px;
+    }
+    /* ------- Tecnologies ------*/
+    #technologies {
+        padding: 100px 100px 0 100px;
+    }
+    .card-list {
+        margin: 15px 300px 0 300px;
+    }
+    .card-list ul {
+        gap: 10%;
+    }
+    /* --------- Projects ------ */
+    #projects {
+        padding: 100px 100px 0 100px;
     }
 }

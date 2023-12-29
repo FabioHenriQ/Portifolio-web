@@ -215,7 +215,7 @@ section {
 }
 /*------------- technologies -------- */
 #technologies {
-    background-color: #af96e2;
+    background-color: #d6caee;
     padding: 80px 20px 10px 10px;
 }
 #technologies h2 {
@@ -251,8 +251,8 @@ section {
     padding: 15px;
     margin-top: 10px;
     border-radius: 5px;
-    background: #af96e2;
-    box-shadow:  11px 11px 22px #9580c0, -11px -11px 22px #c8adff93;
+    background: #d6caee;
+    box-shadow:  11px 11px 22px #9e95b0, -11px -11px 22px #e4e0e085;
     transition: .5s;
 }
 .card p {
@@ -269,7 +269,7 @@ section {
 }
 /* ------- Projects -------- */
 #projects {
-    background-color: #af96e2;
+    background-color: #d6caee;
     padding: 80px 20px 10px 10px;
 }
 #projects h2 {
@@ -300,8 +300,8 @@ section {
     padding: 15px;
     transition: .5s;
 
-    background: linear-gradient(315deg, #9e87cb, #bba1f2);
-    box-shadow:  -6px -6px 27px #62547fbd, 6px 6px 27px #fcd8ffce;
+    background: linear-gradient(315deg, #d6caee, #d6caee);
+    box-shadow:  -6px -6px 27px #66626e, 6px 6px 27px #9d8c9eaf;
 }
 .project-card:hover {
     transform: scale(1.02);
@@ -390,7 +390,7 @@ footer {
     box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
     -webkit-backdrop-filter: blur( 2.5px );
     backdrop-filter: blur( 2.5px );
-    border-radius: 10px;
+    border-radius: 5px;
     border: 1px solid rgba( 255, 255, 255, 0.18 );
 }
 
