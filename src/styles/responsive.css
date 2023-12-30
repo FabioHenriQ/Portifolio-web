@@ -43,24 +43,62 @@
 }
 
 @media  screen and (min-width: 1024px) {
+    /* ------ Disabled ------ */
+    .menu-mobile {
+        display: none;
+    }
+    /* ------ Header --------- */
+    .menu-desktop {
+        display: block;
+    }
+    .options-menu-desktop {
+        display: flex;
+        gap: 20px;
+        flex-direction: row;
+    }
+    .options-menu-desktop li {
+        display: flex;
+        justify-content: space-between;
+        padding: 0 20px;
+        width: 100%;
+    }
+    .menu-desktop ul {
+        list-style: none;
+        align-items: center;
+    }
+    .options-menu-desktop a {
+        font-size: 20px;
+        color: #ffffff;
+        text-decoration: none;
+        font-weight: 800;
+        width: max-content;
+        transition: .5s;
+    }
+    .options-menu-desktop a:hover {
+        transition: .5s;
+        text-decoration: underline;
+        text-underline-offset: 0.4rem;
+    }
+
     /* ----- Home --------- */
     #home {
         padding: 100px 100px 0 100px;
     }
+
     /* ------- About -------- */
     #about {    
         padding: 100px 100px 20px 100px;
     }
+
     /* ------- Tecnologies ------*/
     #technologies {
         padding: 100px 100px 0 100px;
     }
     .card-list {
-        margin: 15px 300px 0 300px;
+        margin: 15px 20% 0 20%;
     }
-    .card-list ul {
-        gap: 10%;
-    }
+
+
     /* --------- Projects ------ */
     #projects {
         padding: 100px 100px 0 100px;
