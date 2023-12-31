@@ -1,7 +1,6 @@
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
-    <!-- SEO -->
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
@@ -15,10 +14,11 @@
     <link rel="stylesheet" href="./src/styles/main.css">
     <link rel="stylesheet" href="./src/styles/responsive.css">
     <link rel="stylesheet" href="./src/styles/scrollReveal.css">
+    <link rel="stylesheet" href="./src/styles/scroll.css">
 
     <!-- Scripts -->
     <script src="./src/scripts/main.js" defer></script>
-    <script src="./src/scripts/buttonUp.js"></script>
+    <script src="./src/scripts/buttonUp.js" defer></script>
     <script src="https://unpkg.com/scrollreveal" defer></script>
     <script src="./src/scripts/scrollReveal.js" defer></script>
     
@@ -26,7 +26,6 @@
     <title>Portifólio - Fabio Henrique</title>
 </head>
 <body>
-    
     <header>
         <nav>
             <div class="menu-mobile">
@@ -53,7 +52,7 @@
                         <a href="#home"><img src="./src/assets/icons/logo-branco.png" alt="Logo branca do site" title="Logo FH (Fabio Henrique)"></a>
                     </div>
                     <ul class="options-menu-desktop">
-                        <li><a href="#home">Home</a></li>
+                        <li><a href="#home" class="selected">Home</a></li>
                         <li><a href="#about">Sobre</a></li>
                         <li><a href="#technologies">Tech Skills</a></li>
                         <li><a href="#projects">Projetos</a></li>
@@ -81,8 +80,8 @@
                 <hr>
             </div>
             <div class="icons-social">
-                <a href="" rel="noopener" target="_blank"><img src="./src/assets/icons/logotipo-do-linkedin.png" alt="Logo do Linkedin" title="Linkedin"></a>
-                <a href="" rel="noopener" target="_blank"><img src="./src/assets/icons/placa-do-github.png" alt="Logo do Github" title="Github"></a>
+                <a href="https://www.linkedin.com/in/fabio-henrique-dos-santos-3186921b4/" rel="noopener" target="_blank"><img src="./src/assets/icons/logotipo-do-linkedin.png" alt="Logo do Linkedin" title="Linkedin"></a>
+                <a href="https://github.com/FabioHenriQ" rel="noopener" target="_blank"><img src="./src/assets/icons/placa-do-github.png" alt="Logo do Github" title="Github"></a>
             </div>
         </section>
 
@@ -95,16 +94,17 @@
                 </div>
                 <div class="learning-about">
                     <ul>
-                        <li><p>Lorem ipsum dolor sit amet consectetur, adipis <span>algo interessante</span> Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi molestiae dolorum omnis? Quam corrupti vel pariatur excepturi possimus moll </p></li>
-                        <li><p>Lorem ipsum dolor sit amet consectetur, adipis <span>algo interessante</span>  neque! Reprehenderit dolorum sequi accusamus ut quod aspernatur eum nihil praesentium veniam omnis ex</li>
-                        <li><p>Lorem ipsum dolor sit amet consectetur, adipis <span>algo interessante</span>  neque! Reprehenderit dolorum sequi accusamus ut quod aspernatur eum nihil praesentium veniam omnis ex</li>
-                        <li><p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Cupiditate, incidunt neque! Reprehenderit dolorum sequi accusamus ut quod aspernatur eum nihil praesentium veniam omnis explicabo neque rem, corrupti ad sit ducimus..</li>
+                        <li><p>Estou cursando ensino superior em <span>Engenharia de Software</span> no Centro Universitário Anhanguera Pitágoras Ampli</p></li>
+                        <li><p>Participei dos <span>Bootcamps</span> Pôtencia Tech do Ifood, onde o foco era Javascript, HTML e CSS</li>
+                        <li><p>Realizei cursos na IFMG, Veduca, Danki Code e DIO, todos com foco na área de Tecnologia.</p></li>
+                        <li><p>Participei do <span>Bootcamp</span> Desenvolvimento Frontend com Angular do banco PAN, com foco em Typescript e Angular.</li>
+                        <li><p>Sou apaixonado por programação e tecnologia. Eu aprendo rápido e estou sempre buscando novos desafios e oportunidades para desenvolver minhas habilidades e conhecimentos. Também gosto muito de filmes, jogos, música e de explorar novos estilos e artistas.</li>
                     </ul>
                 </div>
             </div>
             <div class="buttons-about">
-                <a href="" class="button">CV</a>
-                <a href="" class="button">Certificados</a>      
+                <a href="" rel="noopener" target="_blank" class="button">CV</a>
+                <a href="https://www.linkedin.com/in/fabio-henrique-dos-santos-3186921b4/details/certifications/" rel="noopener" target="_blank" class="button">Certificados</a>      
             </div>
         </section> 
 
@@ -152,7 +152,7 @@
             <div class="project">
                 <h2>Projetos</h2>
                 <hr>
-                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Commodi optio temporibus deserunt ullam </p>
+                <p>Aqui você pode conferir alguns dos meus projetos Web, sempre faço um projeto para melhorar meus conhecimentos e práticas com websites incríveis e funcionais, usando as melhores tecnologias do mercado como HTML, CSS, JavaScript, React, Typescript entre outras ferramentas, para garantir a qualidade, performance e a segurança dos meus websites. </p>
                 <div class="projects-list">
                     <ul>
                         <li class="project-card">
@@ -176,24 +176,21 @@
 
                         <li class="project-card">
                             <div class="project-image">
-                                <img src="./src/assets/images/imagesTemplates/undraw_Programming_re_kg9v.png" alt="Imagem do projeto">
+                                <img src="./src/assets/images/imagesProjects/Captura de tela 2023-12-18 170316.png" alt="Imagem do projeto">
                             </div>
-                            <p class="project-title">Nome do projeto</p>                            
+                            <p class="project-title">Simulador de Piano</p>                            
                             <div class="project-tech">
                                 <p>Tecnologias usadas: </p>
                                 <div class="tech-images">
-                                    <img src="./src/assets/icons/iconsTechnologies/angular.png" alt="">
-                                    <img src="./src/assets/icons/iconsTechnologies/css-3.png" alt="">
-                                    <img src="./src/assets/icons/iconsTechnologies/html-5.png" alt="">
-                                    <img src="./src/assets/icons/iconsTechnologies/html-5.png" alt="">
-                                    <img src="./src/assets/icons/iconsTechnologies/html-5.png" alt="">
-                                    <img src="./src/assets/icons/iconsTechnologies/html-5.png" alt="">
+                                    <img src="./src/assets/icons/iconsTechnologies/html-5.png" alt="logo do Html5" title="HTML">
+                                    <img src="./src/assets/icons/iconsTechnologies/css-3.png" alt="logo do Css3" title="CSS">
+                                    <img src="./src/assets/icons/iconsTechnologies/js.png" alt="logo do Javascript" title="Javascript">
                                 </div>
                             </div>
-                            <p class="project-description">Lorem ipsm, dolor sit amet consectetur adipisicing elit. Impedit consequuntur atque beatae, et, quidem recusandae nesciunt amet voluptate asperiores obcaecati nam. Sint possimus autem dignissimos nihil accusamus? Molestias, necessitatibus suscipit.</p>
+                            <p class="project-description"> Um Piano virtual funcional, para tocar suas melhores múscias!</p>
                             <div class="buttons-project">
-                                <a href="" class="btn-project">Ver projeto</a>
-                                <a href="" class="btn-project">Código</a>
+                                <a href="https://piano-simulator-web.netlify.app/" target="_blank" rel="noopener" class="btn-project">Ver projeto</a>
+                                <a href="https://github.com/FabioHenriQ/PianoSimulator" target="_blank" rel="noopener" class="btn-project">Código</a>
                             </div>
                         </li>
 
@@ -201,22 +198,18 @@
                             <div class="project-image">
                                 <img src="./src/assets/images/imagesTemplates/undraw_Programming_re_kg9v.png" alt="Imagem do projeto">
                             </div>
-                            <p class="project-title">Nome do projeto</p>                            
+                            <p class="project-title">Portifólio Pessoal</p>                            
                             <div class="project-tech">
                                 <p>Tecnologias usadas: </p>
                                 <div class="tech-images">
-                                    <img src="./src/assets/icons/iconsTechnologies/angular.png" alt="">
-                                    <img src="./src/assets/icons/iconsTechnologies/css-3.png" alt="">
-                                    <img src="./src/assets/icons/iconsTechnologies/html-5.png" alt="">
-                                    <img src="./src/assets/icons/iconsTechnologies/html-5.png" alt="">
-                                    <img src="./src/assets/icons/iconsTechnologies/html-5.png" alt="">
-                                    <img src="./src/assets/icons/iconsTechnologies/html-5.png" alt="">
+                                    <img src="./src/assets/icons/iconsTechnologies/html-5.png" alt="logo do Html5" title="HTML">
+                                    <img src="./src/assets/icons/iconsTechnologies/css-3.png" alt="logo do Css3" title="CSS">
+                                    <img src="./src/assets/icons/iconsTechnologies/js.png" alt="logo do Javascript" title="Javascript">
                                 </div>
                             </div>
-                            <p class="project-description">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Impedit consequuntur atque beatae, et, quidem recusandae nesciunt amet voluptate asperiores obcaecati nam. Sint possimus autem dignissimos nihil accusamus? Molestias, necessitatibus suscipit.</p>
+                            <p class="project-description"> É onde você está agora, feito para mostrar meus projetos, usando o conceito de Mobile First e sempre pensando no UX/UI e melhores práticas, com SEO e SMO.</p>
                             <div class="buttons-project">
-                                <a href="" class="btn-project">Ver projeto</a>
-                                <a href="" class="btn-project">Código</a>      
+                                <a href="https://github.com/FabioHenriQ/Portifolio-web" target="_blank" rel="noopener" class="btn-project">Código</a>      
                             </div>
                         </li>
 
@@ -231,15 +224,15 @@
     <footer>
         <div class="footer-icons">
             <ul>
-                <li><a href="" title="Github"><img src="./src/assets/icons/github_logo_icon_147285.png" alt=""></a></li>
-                <li><a href="" title="Linkedin"><img src="./src/assets/icons/linkedin_socialnetwork_17441.png" alt=""></a></li>
+                <li><a href="https://github.com/FabioHenriQ" target="_blank" rel="noopener" title="Github"><img src="./src/assets/icons/github_logo_icon_147285.png" alt=""></a></li>
+                <li><a href="https://www.linkedin.com/in/fabio-henrique-dos-santos-3186921b4/" target="_blank" rel="noopener" title="Linkedin"><img src="./src/assets/icons/linkedin_socialnetwork_17441.png" alt=""></a></li>
             </ul>
         </div>
         <p><i>Portifólio</p>
         <div class="footer-links">
             <ul>
-                <li><a href="">Currículo</a></li>
-                <li><a href="">Certificados</a></li>
+                <li><a href="" rel="noopener" target="_blank">Currículo</a></li>
+                <li><a href="https://www.linkedin.com/in/fabio-henrique-dos-santos-3186921b4/details/certifications/" rel="noopener" target="_blank">Certificados</a></li>
             </ul>
             
         </div>

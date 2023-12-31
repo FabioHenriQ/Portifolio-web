@@ -1,0 +1,18 @@
+body::-webkit-scrollbar-track {
+    background: linear-gradient(180deg, rgba(51, 8, 131, 0.815), rgba(16, 8, 131, 0.815));
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.322);
+    -webkit-backdrop-filter: blur( 13.5px );
+    backdrop-filter: blur( 13.5px );
+}
+
+body::-webkit-scrollbar-thumb {
+    background-color:  #fff;
+}
+
+body::-webkit-scrollbar {
+    background: linear-gradient(180deg, rgba(51, 8, 131, 0.815), rgba(16, 8, 131, 0.815));
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.322);
+    -webkit-backdrop-filter: blur( 13.5px );
+    backdrop-filter: blur( 13.5px );
+    width: 5px;
+}

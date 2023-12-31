@@ -318,6 +318,8 @@ section {
     font-weight: 300;
 }
 .project-card {
+    display: flex;
+    flex-direction: column;
     margin: 20px;
     border-radius: 20px;
     padding: 15px;
@@ -416,11 +418,7 @@ footer {
     display: none;
     transition: .5s;
 }
-.selected {
-    color: #ffffff !important;
-    text-decoration: underline black 5px;
-    transition: 1s;
-}
+
 .button {
     min-width: 7rem;
     text-decoration: none;

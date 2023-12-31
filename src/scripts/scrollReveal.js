@@ -4,8 +4,8 @@ const soloElementsProjects = ['.project-card'];
 
 
 WhatScrollReveal(sections, 2000, false);
-WhatScrollReveal(soloElementsSkills, 3000);
-WhatScrollReveal(soloElementsProjects, 3000);
+WhatScrollReveal(soloElementsSkills, 2000);
+WhatScrollReveal(soloElementsProjects, 2000);
 
 
 function WhatScrollReveal(array, duration, again = true) {
