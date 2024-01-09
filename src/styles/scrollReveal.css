@@ -1,4 +1,4 @@
-#home, #about, .card, .project-card {
+#home, .learning-about li, .card, .project-card {
     visibility: hidden;
 }
 
