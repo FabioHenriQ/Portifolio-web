@@ -418,7 +418,9 @@ footer {
 }
 
 /* -------- Sub class------- */
-
+.selected {
+    text-decoration: underline !important;
+}
 .hidden {
     display: none;
     transition: .5s;
